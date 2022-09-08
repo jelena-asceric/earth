@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan&display=swap');
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #070724;
+    --dark-gray: #38384F;
+    --light-gray: #838391;
+    --turquoise: #419EBB;
+    --orange: #EDA249;
+    --purple: #6f2ed6;
+    --light-red: #D14C32;
+    --dark-red: #D83A34;
+    --fire-orange: #CD5120;
+    --turquoise-blue: #1ec2a4;
+    --blue: #2d68f0;
+}
+
+
+body {
+    background-color: var(--black);
+    margin: 0px;
+}
+
+p {
+    font-family: 'Spartan', sans-serif;
+    color: var(--white);
+    font-size: 11px;
+    line-height: 22px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Antonio";
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--white);
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+h2 {
+    font-family: "Antonio";
+    font-size: 20px;
+    letter-spacing: -0.75px;
+    line-height: 26px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--white);
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 9px;
+    letter-spacing: 1.9px;
+    line-height: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white);
+    margin: 0px;
+}
+
+h4 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 8px;
+    letter-spacing: 0.727273px;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.5;
+    color: var(--white);
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media (min-width: 768px) {
+
+h1 {
+    font-size: 48px;
+    line-height: 62px;
+}
+
+h2 {
+    font-size: 24px;
+    letter-spacing: -0.9px;
+    line-height: 31px;
+}
+
+h3 {
+    font-size: 9px;
+    line-height: 25px;
+}
+}
+
+@media (min-width: 1440px) {
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 104px;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    line-height: 52px;
+}
+
+h3 {
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    line-height: 25px;
+}
+
+h4 {
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+}
